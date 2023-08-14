@@ -75,6 +75,26 @@ div.container2 {
 }
 /* header end */
 
-/* menu start */
+/*menu start */
+
+div.men {
+  box-shadow: 5px 5px 5px black;
+  text-align: center;
+  margin: 0% auto;
+  margin-top: 30px;
+}
+
+div.menu {
+  width: 80px;
+  height: inherit;
+  margin-left: 5px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+}
 
 /* menu end */
+
+/* choose your country start */
+
+/*  choose your country end */
