@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: digiyekan;
+  src: url(../font/BYekan+.ttf);
+}
+@font-face {
+  font-family: digiyekan;
+  src: url(../font/BYekan.eot);
+}
+@font-face {
+  font-family: digiyekan;
+  src: url(../font/BYekan.woff);
+}
+@font-face {
+  font-family: digiyekan;
+  src: url(../font/BYekan.woff2);
+}
