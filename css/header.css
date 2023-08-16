@@ -52,7 +52,7 @@ div.container2 {
   border-radius: 10px;
   text-align: center;
   line-height: 40px;
-  font: digiyekan;
+  font-family: digiyekan;
   cursor: pointer;
   position: absolute;
   top: 80px;
@@ -98,63 +98,25 @@ header > nav > ul > span > div.menu {
 /* header end */
 
 /* choose your country start */
-#choose,
-#close {
-  display: none;
-}
 
-label[for="choose"] {
-  width: 160px;
-  border-radius: 10px;
-  font: digiyekan;
-  text-align: center;
-  cursor: pointer;
-  position: absolute;
-  margin-left: 140px;
-  margin-top: -100px;
+#plzcountry {
   font-weight: 900;
-}
-
-div.CHOOSE {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
+  margin-right: 50px;
+  margin-top: 0 auto;
   position: absolute;
-  top: 0;
-  left: -100%;
-  transition: 1s;
-  z-index: 10;
 }
 
-#choose:checked ~ div.CHOOSE {
-  left: 0px;
-}
-
-label[for="close"] {
-  width: 30px;
+#country {
   height: 30px;
-  top: 30px;
-  right: 30px;
-  position: absolute;
-  display: inline-block;
+  margin-right: 5px;
+  margin-top: -2px;
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  line-height: 30px;
-  font-size: larger;
-  font-weight: bolder;
-  border-radius: 15px;
-  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: large;
+  font-family: digiyekan;
   text-align: center;
 }
 
-#close:checked ~ div.CHOOSE {
-  left: -106%;
-}
 
-div.img {
-  margin-top: -105px;
-  margin-left: 305px;
-  position: absolute;
-}
-
-/*  choose your country end */
+/* choose your country end */

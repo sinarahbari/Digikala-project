@@ -1,0 +1,73 @@
+* {
+  font-family: digiyekan;
+  direction: rtl;
+}
+.register-form {
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.form-logo {
+  width: 30%;
+  height: 30px;
+  margin: 50px;
+  margin-right: 170px;
+}
+.header-title {
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.caption {
+  margin-right: 100px;
+  font-size: 14px;
+  padding-top: 50px;
+}
+
+.tel-email {
+  display: table;
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  margin: 15px auto;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #72c1d6;
+}
+.tel-email:focus {
+  outline: none;
+  border: 1px solid rgba(247, 10, 57, 0.9);
+}
+.input-caption {
+  color: rgba(158, 10, 40, 0.9);
+  margin-right: 100px;
+  font-size: 14px;
+}
+.login-button {
+  width: 325px;
+  height: 45px;
+  display: table;
+  margin: 16px auto;
+  background-color: rgba(247, 10, 57, 0.9);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rules {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 14px;
+}
+a {
+  text-decoration: none;
+  color: #19bfd3;
+}
