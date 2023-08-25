@@ -1,35 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 
 <head>
     <meta charset="UTF-8" dir="rtl">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>فروشگاه اینترنتی دیجیکالا</title>
+
     <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="./css/main.css" type="text/css">
 
 </head>
 
 <body>
 
-    <!-- banner and head start -->
+    <!-- header start -->
 
-    <img src="./image/banner.jpg" id="banner">
-    <div class="main" dir="rtl">
+    <header>
+
+        <div class="headerTop">
+            <img src="./image/GIF BANNER.gif" alt="banner">
+        </div>
+
+        <div class="headerMid">
+            <div class="right">
+                <img src="./image/Digikala.svg.png" alt="logo">
+            </div>
+            <div class="mid">
+
+                <input type="text" name="search" placeholder="جستوجو">
 
 
 
+                <span class="fas fa-search"></span>
+            </div>
+            <div class="left">
 
-        <div class="container1">
+                <div>
+
+                    <section class="register-box">
+
+                        <a href="./register-page.html"> ورود | ثبت نام </a>
 
 
-            <img src="image/Digikala.svg.png" id="Logo">
+                        <section class="icon">
+                            <img src="./image/icon/enter .png">
+                        </section>
+
+                    </section>
+
+
+                    <span class="line">|
+                        <span class="fas fa-shopping-cart"></span>
+                    </span>
+
+
+
+                </div>
+            </div>
 
 
         </div>
 
-        <img src="icon/search.png" id="searchicon">
-        <div id="search">جستجو</div>
+
+
+
+        <div class="headerBottom">
+            <nav></nav>
+            <div class="city">
+                <div>
+                    <img src="./image/icon/location.png" alt="location">
+
+                    <section class="area-city"> لطفا شهر خود را انتخاب کنید
+                    </section>
+                </div>
+
+            </div>
+        </div>
 
 
 
@@ -37,34 +84,126 @@
 
 
 
-        <div class="container2">
-            <div>
 
-                <img src="icon/shop-black _preview_rev_1.png" id="shop">
+    </header>
+
+    <!-- wraper start -->
+    <main class="main">
+        <!--story1 start   -->
+        <section class="Products">
+            <div class="data-active1"></div>
+            <div class="data-active2"></div>
+            <div class="data-active3"></div>
+            <div class="data-active4"></div>
+            <div class="data-active5"></div>
+            <div class="data-active6"></div>
+            <div class="data-active7"></div>
+            <div class="data-active8"></div>
+        </section>
+
+        <!-- story1 end -->
+
+        <!-- swiperTop start -->
+
+        <section class="swiperTop">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="image/swiper-pix/Q1.webp" alt="pix">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="image/swiper-pix/Q2.webp" alt="pix">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="image/swiper-pix/Q3.gif" alt="pix">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="image/swiper-pix/Q4.webp" alt="pix">
+                    </div>
 
 
+
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
             </div>
 
 
 
-            <a href="./register-page.html">
-                <label for="show"> ورود | ثبت نام
-                </label>
-            </a>
+
+        </section>
+        <!-- swiperTop end -->
 
 
 
-        </div>
+
+        <section class="story2">
+
+            <div class="img">
+
+                <img src="./image/story2/pix1.png" alt="p1">
+                <span>دیجی‌کالا جت</span>
+
+                <img src="./image/story2/pix2.png" alt="p2">
+                <span> حراج استایل</span>
+
+                <img src="./image/story2/pix3.png" alt="p3">
+                <span> دیجی‌پی</span>
+
+                <img src="./image/story2/pix4.png" alt="p4">
+                <span> خرید عمده و سازمانی</span>
+
+                <img src="./image/story2/pix5.png" alt="p5">
+                <span> کوله پرتخفیف </span>
+
+                <img src="./image/story2/pix6.png" alt="p6">
+                <span> حراج استایل</span>
+
+                <img src="./image/story2/pix7.png" alt="pix7">
+                <span> قرعه‌کشی آیفون 13</span>
+
+                <img src="./image/story2/extera icon.png" alt="pix8">
+                <span>بیشتر </span>
+
+            </div>
 
 
-    </div>
-
-    <!-- banner and head end -->
+        </section>
 
 
+    </main>
 
-    <!-- header start -->
-    <header dir="rtl">
+    <!-- wrapper end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- nav start -->
+    <!-- <header dir="rtl">
 
 
         <nav>
@@ -105,43 +244,12 @@
 
 
 
-
-                <label for="choose" id="plzcountry">
-                    لطفا شهر خود را انتخاب کنید
-
-
-                    <select name="country" id="country">
-                        <option value="Iran">ایران</option>
-                        <option value="UK">انگلیس</option>
-                        <option value="USA">آمریکا</option>
-                        <option value="UAE">عربستان</option>
-                        <option value="UAE">آفریقا</option>
-                        <option value="UAE">نیجریه</option>
-                        <option value="UAE">دبی</option>
-                        <option value="UAE">پاکستان</option>
-                        <option value="UAE">عمان</option>
-                        <option value="UAE">مجارستان</option>
-                        <option value="UAE">بلژیک</option>
-                        <option value="UAE">هلند</option>
-                        <option value="UAE">نروژ</option>
-                        <option value="UAE">ایرلند</option>
-                        <option value="UAE">فرانسه</option>
-                        <option value="UAE">استرالیا</option>
-                        <option value="UAE">ایتالیا</option>
-                        <option value="UAE">دانمارک</option>
-                        <option value="UAE">لهستان</option>
-                        <option value="UAE">برزیل</option>
-                        <option value="UAE">یونان</option>
-                        <option value="UAE">صربستان</option>
-                        <option value="UAE">رومانی</option>
-                        <option value="UAE">آلمان</option>
-
-                    </select>
+               
 
 
 
 
-                </label>
+                
 
 
             </ul>
@@ -152,7 +260,11 @@
 
 
 
-        <hr>
+    
+
+
+
+    </header> -->
 
 
 
@@ -165,8 +277,6 @@
 
 
 
-    </header>
-    <!-- header end -->
 
 
 
@@ -175,20 +285,6 @@
 
 
 
-    <!--story start  -->
-    <section class="Products">
-        <div class="data-active1"></div>
-        <div class="data-active2"></div>
-        <div class="data-active3"></div>
-        <div class="data-active4"></div>
-        <div class="data-active5"></div>
-        <div class="data-active6"></div>
-        <div class="data-active7"></div>
-        <div class="data-active8"></div>
-
-    </section>
-
-    <!-- story end-->
 
 
 
@@ -196,76 +292,10 @@
 
 
 
-    <main>
-        <!-- swiperTop start -->
-        <section class="swiperTop">
-
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="swiper-pix/Q1.webp" alt="pix">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="swiper-pix/Q2.webp" alt="pix">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="swiper-pix/Q3.gif" alt="pix">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="swiper-pix/Q5.webp" alt="pix">
-                    </div>
 
 
-
-
-
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-                <div class="autoplay-progress">
-                    <svg viewBox="0 0 48 48">
-                        <circle cx="24" cy="24" r="20"></circle>
-                    </svg>
-                    <span></span>
-                </div>
-            </div>
-
-
-
-
-        </section>
-
-        <!-- swiperTop end -->
-
-
-
-
-        <!--story2 start  -->
-        <section class="story2">
-            <div class="data-active1"></div>
-            <div class="data-active2"></div>
-            <div class="data-active3"></div>
-            <div class="data-active4"></div>
-            <div class="data-active5"></div>
-            <div class="data-active6"></div>
-            <div class="data-active7"></div>
-            <div class="data-active8"></div>
-            <div class="data-active9"></div>
-
-
-        </section>
-        <!-- story2 end-->
-
-
-
-
-
-        <!-- swiperMiddle start -->
-        <section class="middle">
+    <!-- swiperMiddle start -->
+    <!-- <section class="middle">
 
 
             <div class="swiper Swipermiddle">
@@ -327,8 +357,8 @@
 
 
 
-        </section>
-        <!-- swiperMiddle end -->
+        </section> -->
+    <!-- swiperMiddle end -->
 
 
 
@@ -340,7 +370,19 @@
 
 
 
-    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -364,6 +406,23 @@
 
     <script src="./swiper/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+
+
+
+    <!-- main end -->
+
+
+
+
+
+
+    <!-- footer start -->
+    <!-- footer end -->
+
+
+
 </body>
+
+
 
 </html>

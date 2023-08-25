@@ -5,175 +5,28 @@
 }
 
 section.story2 {
-  position: relative;
-  margin: 0px;
-  padding: 50px;
   width: 100%;
-  height: 100%;
+  height: 150px;
+  margin-top: 20px;
+  /* background-color: aqua; */
+}
 
-  background-color: rgb(255, 255, 255);
+section.story2 > div.img > img {
+  width: 60px;
+  height: 60px;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: -12px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+section.story2 > div.img > span {
+  width: 120px;
+  margin-right: -75px;
+  padding: 10px;
+  padding-top: 110px;
+  /* background-color: yellow; */
+  position: absolute;
   text-align: center;
-}
-
-section.story2 > div.data-active1 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 10px;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story2/pix1.png);
-}
-
-section.story2 > div.data-active2 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 20px;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story/p2.jpeg);
-}
-
-section.story2 > div.data-active3 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 10px;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story2/pix2.png);
-}
-
-section.story2 > div.data-active4 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 10px;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story2/pix3.png);
-}
-
-section.story2 > div.data-active5 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 100%;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story2/pix4.png);
-}
-
-section.story2 > div.data-active6 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 100%;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story2/pix5.png);
-}
-
-section.story2 > div.data-active7 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 100%;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story2/pix6.png);
-}
-
-section.story2 > div.data-active8 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 100%;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story2/pix7.png);
-}
-
-section.story2 > div.data-active9 {
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-  height: 40px;
-  transition: 350ms;
-  border-radius: 100%;
-  border: solid 2px black;
-  margin: 10px 0px 0px 70px;
-  padding: 30px;
-  background-repeat: round;
-  cursor: pointer;
-  background-image: url(../story2/extera\ product.jpg);
-}
-
-div.data-active1:hover ~ div {
-  background-color: rgb(255, 255, 255);
-}
-
-div.data-active2:hover ~ div {
-  background-color: rgb(255, 255, 255);
-}
-
-div.data-active3:hover ~ div {
-  background-color: rgb(255, 255, 255);
-}
-
-div.data-active4:hover ~ div {
-  background-color: rgb(255, 255, 255);
-}
-
-div.data-active5:hover ~ div {
-  background-color: rgb(255, 255, 255);
-}
-
-div.data-active6:hover ~ div {
-  background-color: rgb(255, 255, 255);
-}
-
-div.data-active7:hover ~ div {
-  background-color: rgb(255, 255, 255);
-}
-
-div.data-active8:hover ~ div {
-  background-color: rgb(255, 255, 255);
-}
-
-div.data-active9:hover ~ div {
-  background-color: rgb(255, 255, 255);
 }

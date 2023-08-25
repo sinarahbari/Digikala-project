@@ -1,25 +1,24 @@
-* {
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
-  
-  
 }
 
 @font-face {
-  font-family: digiyekan;
-  src: url(../font/BYekan+.ttf);
+  font-family: IR-YEKAN;
+  src: url(../../font/IRANYekanWeb.ttf);
 }
 @font-face {
-  font-family: digiyekan;
-  src: url(../font/BYekan.eot);
+  font-family: IR-YEKA;
+  src: url(../../font/IRANYekanWeb.woff2);
 }
 @font-face {
-  font-family: digiyekan;
-  src: url(../font/BYekan.woff);
+  font-family: IR-YEKA;
+  src: url(../../font/IRANYekanWeb.woff);
 }
 @font-face {
-  font-family: digiyekan;
-  src: url(../font/BYekan.woff2);
+  font-family: IR-YEKA;
+  src: url(../../font/IRANYekanWeb.eot);
 }

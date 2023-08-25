@@ -1,15 +1,10 @@
-/* section.swiperTop {
-  width:  auto;
-  height: 400vh;
-  background-color: black;
-} */
-
 /*swiper top start  */
+
 main > section.swiperTop .swiper {
   width: 100%;
-  height: 100vh;
-  margin-top: 55px;
-  padding: 0%;
+  height: 400px;
+  margin-top: 20px;
+  object-fit: cover;
 }
 
 main > section.swiperTop .swiper-slide {

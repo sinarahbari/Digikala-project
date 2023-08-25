@@ -1,125 +1,157 @@
-/* banner head start */
-#banner {
-  width: 98.8vw;
-  height: 60px;
-}
-
-div.container1 {
-  display: inline-block;
-}
-
-#Logo {
-  width: 55%;
-  height: 37px;
-  margin-right: 80px;
-  margin-top: 10px;
-  padding: 2px;
-}
-
-#search {
-  width: 20%;
-  height: 40px;
-  background-color: silver;
-  padding: 10px 20px 10px 10px;
-  margin-right: 220px;
-  margin-top: -40px;
-  border-radius: 10px;
-  font-size: 16px;
-  line-height: 20px;
-}
-#searchicon {
-  margin-right: 240px;
-  display: inline-block;
-}
-
-div.container2 {
-  width: inherit;
-  height: 30px;
-}
-
-#shop {
-  position: absolute;
-  margin-right: 1200px;
-  margin-top: -20px;
-  cursor: pointer;
-}
-
-[for="show"] {
-  width: 100px;
-  height: 40px;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  border-radius: 10px;
-  text-align: center;
-  line-height: 40px;
-  font-family: digiyekan;
-  cursor: pointer;
-  position: absolute;
-  top: 80px;
-  left: 200px;
-}
-/* banner head end */
-
-/* header start */
-
 header {
   width: 100%;
-  height: 120px;
+  height: 168px;
 }
 
-header > nav {
-  width: inherit;
-  height: 40px;
+/* header top start */
+/* banner start */
+header > div.headerTop {
+  height: 60px;
+  width: 100%;
 }
 
-header > nav > ul {
+header > div.headerTop > img {
   width: 100%;
   height: inherit;
-  margin-right: 20px auto;
-  list-style: none;
-  padding: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+/* banner end */
+/* header top end */
+
+/* header mid start */
+/* logo,search, register start */
+header > div.headerMid {
+  width: 100%;
+  height: 68px;
 }
 
-header > nav > ul > span > div.menu {
-  width: 100px;
-  height: 20px;
+header > div.headerMid > div {
   display: inline-block;
-  margin: 0 10px;
-  background-color: whitesmoke;
-  border-radius: 10px;
-  text-align: center;
+  vertical-align: top;
+  margin-left: -0px;
+  position: relative;
+  /* background-color: aqua; */
 }
-#iconsss {
-  margin-top: 0px;
-  margin-bottom: -5px;
+header > div.headerMid > div.right {
+  width: 130px;
+  height: inherit;
+}
+header > div.headerMid > div.right > img {
+  width: 90%;
+  height: 40px;
+  margin: 15px 10px 0px 0px;
   cursor: pointer;
 }
 
-/* header end */
+header > div.headerMid > div.mid {
+  width: 67%;
+  height: inherit;
+  position: relative;
+}
 
-/* choose your country start */
+header > div.headerMid > div.mid > input {
+  width: 70%;
+  height: 40px;
+  position: absolute;
+  margin: 15px 20px 20px 0px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
 
-#plzcountry {
-  font-weight: 900;
+header > div.headerMid > div.mid > span {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  margin: 25px 25px 25px 0px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+header > div.headerMid > div.left {
+  width: 311px;
+  height: inherit;
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
+div.left > div > section.register-box {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
   margin-right: 50px;
-  margin-top: 0 auto;
+  border: solid 1px black;
+}
+
+div.left > div > section.register-box > a {
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 5px;
+  color: black;
+}
+
+section.register-box > section.icon > img {
+  margin-right: 95px;
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
   position: absolute;
 }
 
-#country {
-  height: 30px;
-  margin-right: 5px;
-  margin-top: -2px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
-  display: inline-block;
-  font-size: large;
-  font-family: digiyekan;
-  text-align: center;
+div.left div > span.line {
+  position: absolute;
+  margin-top: -25px;
+  margin-right: 190px;
+  height: 40%;
 }
 
-/* choose your country end */
+div.left div > span.line span.fa-shopping-cart {
+  margin-right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+/* logo,search, register end */
+/* header mid end */
 
-/* story start */
+/* header bottom start */
+header > div.headerBottom {
+  width: 100%;
+  height: 40px;
+}
 
-/* story end */
+header > div.headerBottom > nav {
+  width: 80%;
+  height: inherit;
+  background-color: brown;
+}
+
+header > div.headerBottom > div.city {
+  width: 20%;
+  height: inherit;
+  /* background-color: blue; */
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 80%;
+  margin-top: -40px;
+}
+
+div.city div > img {
+  width: 25px;
+  height: 25px;
+  margin-top: 8px;
+  margin-right: 15px;
+  position: relative;
+}
+
+div.city div > section.area-city {
+  position: absolute;
+  margin-right: 50px;
+  margin-top: -25px;
+  cursor: pointer;
+}
+/* header bottom end */
