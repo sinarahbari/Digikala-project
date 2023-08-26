@@ -1,4 +1,4 @@
-// swiperTop start
+// swiperTop (1) start
 const progressCircle = document.querySelector(".autoplay-progress svg");
 const progressContent = document.querySelector(".autoplay-progress span");
 var swiper = new Swiper(".mySwiper", {
@@ -23,12 +23,12 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
-// swiperTop end
+// swiperTop (1) end
 
-// swiper middle start
-var swiper = new Swiper(".Swipermiddle", {
+// swiper2 start
+var swiper = new Swiper(".Swiper-2", {
   slidesPerView: 1,
-  spaceBetween: 10,
+  spaceBetween: 5,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -36,16 +36,26 @@ var swiper = new Swiper(".Swipermiddle", {
   breakpoints: {
     640: {
       slidesPerView: 2,
-      spaceBetween: 20,
+      spaceBetween: 2,
     },
     768: {
       slidesPerView: 4,
-      spaceBetween: 40,
+      spaceBetween: 2,
     },
     1024: {
       slidesPerView: 5,
-      spaceBetween: 50,
+      spaceBetween: 2,
+    },
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  on: {
+    autoplayTimeLeft(s, time, progress) {
+      progressCircle.style.setProperty("--progress", 1 - progress);
+      progressContent.textContent = `${Math.ceil(time / 1000)}s`;
     },
   },
 });
-// swipe middle end
+// swiper2 end
