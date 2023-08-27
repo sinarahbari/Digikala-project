@@ -1,11 +1,12 @@
 main > section.swiper2 {
-  width: 99%;
-  height: 45vh;
+  width: 1304px;
+  height: 300px;
+  /* width: 99%;
+  height: 45vh; */
   background-color: #e6123cd0;
   margin: 40px 20px 40px 20px;
   padding: 15px 80px 15px 0px;
   border-radius: 20px;
-  margin-right: 5px;
 }
 
 main > section.swiper2 > div.img-right section.img1 {
@@ -34,34 +35,37 @@ main > section.swiper2 > div.img-right section.img3 {
 }
 
 main > section.swiper2 .swiper {
-  width: 90%;
-  height: 250px;
-  margin-right: 120px;
+  /* width: 90%; */
+  width: 1100px;
+  height: 270px;
+  margin-right: 115px;
   cursor: pointer;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 main > section.swiper2 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
-  height: 280px;
+  height: 270px;
+  /* display: flex; */
 }
 
 main > section.swiper2 .swiper-slide > img {
   display: inline-block;
-  width: 80px;
-  height: 20vh;
+  width: 150px;
+  height: 150px;
 }
 
 main > section.swiper2 .swiper-slide > div.price {
   display: inline-block;
-  margin-top: 150px;
+  margin-top: 40px;
   margin-right: 50px;
 }
 
@@ -71,11 +75,11 @@ main > section.swiper2 .swiper-slide > div.price > div.discount {
   background-color: rgb(255, 37, 56);
   border-radius: 10px;
   margin-right: -60px;
-  margin-top: -30px;
+  margin-top: -20px;
   color: white;
 }
 
 main > section.swiper2 .swiper-slide > div.price > div.off {
   text-decoration: line-through;
-  margin-top: 20px;
+  margin-top: 10px;
 }
