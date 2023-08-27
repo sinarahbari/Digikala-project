@@ -1,0 +1,200 @@
+/*category start*/
+div.category {
+  width: 1304px;
+  height: 60px;
+  text-align: center;
+  margin: 40px -80px 40px 0px;
+  /* background-color: aqua; */
+}
+div.category > p {
+  line-height: 60px;
+  font-family: IR-YEKAN;
+  font-size: 20px;
+}
+div.ctgry {
+  width: inherit;
+  height: 150px;
+  margin: -20px -80px 40px 0px;
+  /* background-color: aqua; */
+}
+
+div.ctgry > div.ctgry-1 {
+  line-height: -100px;
+  position: relative;
+  margin-right: 90px;
+}
+
+div.ctgry > div.ctgry-1 > div.toy {
+  width: 181.71px;
+  height: 134.04px;
+  position: absolute;
+  /* background-color: black; */
+}
+
+div.ctgry > div.ctgry-1 > div.toy > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+
+div.ctgry > div.ctgry-1 > div.toy > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+  /* background-color: blue; */
+}
+
+div.ctgry > div.ctgry-1 > div.toy > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+}
+
+div.ctgry > div.ctgry-1 > div.book {
+  width: 181.71px;
+  height: 134.04px;
+  right: 945px;
+  position: absolute;
+}
+div.ctgry > div.ctgry-1 > div.book > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.book > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+div.ctgry > div.ctgry-1 > div.book > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+}
+div.ctgry > div.ctgry-1 > div.supermarket {
+  width: 181.71px;
+  height: 134.04px;
+  right: 756px;
+  position: absolute;
+}
+div.ctgry > div.ctgry-1 > div.supermarket > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.supermarket > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+div.ctgry > div.ctgry-1 > div.supermarket > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+}
+div.ctgry > div.ctgry-1 > div.clothes {
+  width: 181.71px;
+  height: 134.04px;
+  right: 567px;
+  position: absolute;
+}
+div.ctgry > div.ctgry-1 > div.clothes > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.clothes > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+div.ctgry > div.ctgry-1 > div.clothes > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+}
+div.ctgry > div.ctgry-1 > div.kitchen {
+  width: 181.71px;
+  height: 134.04px;
+  right: 378px;
+  position: absolute;
+}
+div.ctgry > div.ctgry-1 > div.kitchen > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.kitchen > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+div.ctgry > div.ctgry-1 > div.kitchen > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+}
+div.ctgry > div.ctgry-1 > div.digital {
+  width: 181.71px;
+  height: 134.04px;
+  right: 189px;
+  position: absolute;
+}
+div.ctgry > div.ctgry-1 > div.digital > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.digital > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+div.ctgry > div.ctgry-1 > div.digital > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+}
+div.ctgry > div.ctgry-1 > div.mobile {
+  width: 181.71px;
+  height: 134.04px;
+  right: 0;
+  position: absolute;
+}
+div.ctgry > div.ctgry-1 > div.mobile > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.mobile > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+div.ctgry > div.ctgry-1 > div.mobile > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+}
+/*category done*/
