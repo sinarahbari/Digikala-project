@@ -1,0 +1,172 @@
+/*category2 start*/
+div.category {
+  width: 1304px;
+  height: 60px;
+  text-align: center;
+  margin: 40px -80px 40px 0px;
+  /* background-color: aqua; */
+}
+div.category > p {
+  line-height: 60px;
+  font-family: IR-YEKAN;
+  font-size: 20px;
+}
+div.ctgry {
+  width: inherit;
+  height: 150px;
+  margin: -30px -80px 40px 0px;
+  /* background-color: aqua; */
+}
+
+div.ctgry > div.ctgry-1 {
+  line-height: -100px;
+  position: relative;
+  margin-right: 90px;
+}
+
+div.ctgry > div.ctgry-1 > div.car {
+  width: 181.71px;
+  height: 134.04px;
+  position: absolute;
+  margin-top: 200px;
+  /* background-color: black; */
+}
+
+div.ctgry > div.ctgry-1 > div.car > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+
+div.ctgry > div.ctgry-1 > div.car > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 120px;
+  /* background-color: blue; */
+}
+
+div.ctgry > div.ctgry-1 > div.car > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  /* margin-right: 28px; */
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+  margin-right: 105px;
+}
+
+div.ctgry > div.ctgry-1 > div.classic {
+  width: 181.71px;
+  height: 134.04px;
+  right: 945px;
+  position: absolute;
+  margin-top: 200px;
+}
+div.ctgry > div.ctgry-1 > div.classic > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.classic > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+  /* background-color: blue; */
+  margin-right: -165px;
+}
+div.ctgry > div.ctgry-1 > div.classic > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+  margin-right: -240px;
+}
+div.ctgry > div.ctgry-1 > div.giftcard {
+  width: 181.71px;
+  height: 134.04px;
+  right: 756px;
+  position: absolute;
+  margin-top: 200px;
+  margin-right: -265px;
+}
+div.ctgry > div.ctgry-1 > div.giftcard > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.giftcard > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+  /* background-color: blue; */
+}
+div.ctgry > div.ctgry-1 > div.giftcard > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+  margin-right: 15px;
+}
+div.ctgry > div.ctgry-1 > div.perfume {
+  width: 181.71px;
+  height: 134.04px;
+  right: 567px;
+  position: absolute;
+  margin-top: 200px;
+  /* background-color: rgb(0, 0, 0); */
+}
+div.ctgry > div.ctgry-1 > div.perfume > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.perfume > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+  margin-right: -175px;
+  /* background-color: blue; */
+}
+div.ctgry > div.ctgry-1 > div.perfume > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+  margin-right: -265px;
+}
+
+div.ctgry > div.ctgry-1 > div.gym {
+  width: 181.71px;
+  height: 134.04px;
+  right: 945px;
+  position: absolute;
+  margin-top: 200px;
+}
+div.ctgry > div.ctgry-1 > div.gym > a {
+  width: 181.71px;
+  height: 134.04px;
+}
+div.ctgry > div.ctgry-1 > div.gym > a > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+  /* background-color: blue; */
+  margin-right: -35px;
+}
+div.ctgry > div.ctgry-1 > div.gym > p {
+  width: 130px;
+  height: 26.04px;
+  margin-top: 8px;
+  margin-right: 28px;
+  font-size: 12px;
+  font-family: IR-YEKAN;
+  text-align: center;
+  margin-right: -45px;
+}
+/*category2 end*/
