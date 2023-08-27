@@ -1,0 +1,85 @@
+/*card1 start*/
+div.card-part-1 {
+  width: 1304px;
+  height: 220px;
+  margin: 40px -93px 40px 40px;
+  /* background-color: yellowgreen; */
+  border-radius: 40px;
+}
+
+div.card-part-1 > div.card-1 {
+  width: 100%;
+  width: calc(93% / 4);
+  /* background-color: aqua; */
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: -30px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+div.card-part-1 > div.card-1 > a > img {
+  width: 310px;
+  height: 200px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: bottom;
+ 
+}
+
+div.card-part-1 > div.card-2 {
+  width: 100%;
+  width: calc(93% / 4);
+  /* background-color: aqua; */
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+div.card-part-1 > div.card-2 > a > img {
+  width: 310px;
+  height: 200px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+div.card-part-1 > div.card-3 {
+  width: 100%;
+  width: calc(93% / 4);
+  /* background-color: aqua; */
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+div.card-part-1 > div.card-3 > a > img {
+  width: 310px;
+  height: 200px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+div.card-part-1 > div.card-4 {
+  width: 100%;
+  width: calc(93% / 4);
+  /* background-color: aqua; */
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+div.card-part-1 > div.card-4 > a > img {
+  width: 310px;
+  height: 200px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: bottom;
+}
