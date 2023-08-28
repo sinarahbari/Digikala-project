@@ -1,0 +1,60 @@
+/*card2 start*/
+div.card-part-2 {
+  width: 1304px;
+  height: 220px;
+  margin: 40px -93px 40px 40px;
+}
+div.card-part-2 > div.card2 {
+  width: 1318px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+div.card-part-2 > div.card2 > div.card2-1 {
+  display: inline-block;
+  width: 650px;
+  height: 250px;
+  top: calc(100% - 275px);
+  left: 0;
+  vertical-align: middle;
+  position: absolute;
+}
+div.card-part-2 > div.card2 > div.card2-2 {
+  display: inline-block;
+  width: 650px;
+  height: 250px;
+  position: absolute;
+  vertical-align: middle;
+  top: calc(100% - 275px);
+  right: 0;
+}
+div.card-part-2 > div.card2 > div.card2-1 > a {
+  display: block;
+  width: 650px;
+  height: 250px;
+}
+div.card-part-2 > div.card2 > div.card2-1 > a > img {
+  width: 650px;
+  height: 257px;
+  position: relative;
+  object-position: center center;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 370px;
+}
+div.card-part-2 > div.card2 > div.card2-2 > a {
+  display: block;
+  width: 650px;
+  height: 250px;
+}
+div.card-part-2 > div.card2 > div.card2-2 > a > img {
+  width: 650px;
+  height: 257px;
+  position: relative;
+  object-position: center center;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 370px;
+}
+/*card2 end*/
