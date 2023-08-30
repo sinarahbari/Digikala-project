@@ -59,3 +59,28 @@ var swiper = new Swiper(".Swiper-2", {
   },
 });
 // swiper2 end
+
+// most popular start
+// var swiper = new Swiper(".SwipeRRR-3", {
+//   slidesPerView: 0,
+//   spaceBetween: 0,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   breakpoints: {
+//     640: {
+//       slidesPerView: 2,
+//       spaceBetween: 0,
+//     },
+//     768: {
+//       slidesPerView: 4,
+//       spaceBetween: 0,
+//     },
+//     1024: {
+//       slidesPerView: 5,
+//       spaceBetween: 0,
+//     },
+//   },
+// });
+// most popular end

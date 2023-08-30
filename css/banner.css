@@ -1,0 +1,14 @@
+/* banner start */
+div.banner {
+  width: 1304px;
+  height: 150px;
+  margin: 40px -93px 40px 40px;
+  /* background-color: violet; */
+}
+
+div.banner > img {
+  border-radius: 20px;
+  width: 1304px;
+  height: 150px;
+}
+/* banner end */
