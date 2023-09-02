@@ -1,0 +1,60 @@
+/*card-2-2pic start*/
+div.card2-2pic {
+  width: 1304px;
+  /* height: 220px; */
+  margin: 40px -93px 40px 40px;
+}
+div.card2-2pic > div.card-2 {
+  width: 1318px;
+  height: 130px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+div.card2-2pic > div.card-2 > div.card1 {
+  display: inline-block;
+  width: 650px;
+  /* height: 50px; */
+  top: calc(100% - 275px);
+  left: 0;
+  vertical-align: middle;
+  position: absolute;
+}
+div.card2-2pic > div.card-2 > div.card2 {
+  display: inline-block;
+  width: 650px;
+  /* height: 250px; */
+  position: absolute;
+  vertical-align: middle;
+  top: calc(100% - 275px);
+  right: 0;
+}
+div.card2-2pic > div.card-2 > div.card1 > a {
+  display: block;
+  width: 650px;
+  /* height: 250px; */
+}
+div.card2-2pic > div.card-2 > div.card1 > a > img {
+  width: 650px;
+  /* height: 257px; */
+  position: relative;
+  object-position: center center;
+  object-fit: cover;
+  border-radius: 15px;
+  /* margin-top: 370px; */
+}
+div.card2-2pic > div.card-2 > div.card2 > a {
+  display: block;
+  width: 650px;
+  /* height: 250px; */
+}
+div.card2-2pic > div.card-2 > div.card2 > a > img {
+  width: 650px;
+  /* height: 257px; */
+  position: relative;
+  object-position: center center;
+  object-fit: cover;
+  border-radius: 15px;
+  /* margin-top: 370px; */
+}
+/*card-2-2pic end*/

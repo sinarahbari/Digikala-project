@@ -1,20 +1,23 @@
 /* most popular start */
 section.BORDERPOPULAR {
-  width: 1304px;
-  height: 200px;
-  margin: 40px -93px 40px 40px;
+  width:1304px;
+  height: 400px;
+  margin: 60px -93px 40px 40px;
   /* background-color: aquamarine; */
 }
 
 div.title > p {
+  margin-bottom: -50px;
   text-align: center;
   font-size: 20px;
   direction: ltr;
 }
 
 div.swp .swiper {
-  width: 1304px;
-  height: inherit;
+  width: inherit;
+  height: 400px;
+  border: solid 1px silver;
+
 }
 
 div.swp .swiper-slide {
@@ -25,7 +28,7 @@ div.swp .swiper-slide {
   justify-content: center;
   align-items: center;
   cursor: grab;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 div.swp .swiper-slide img {
@@ -49,3 +52,7 @@ div.swp .swiper-wrapper > .swiper-slide > img {
   margin-top: 20px;
 }
 /* most popular end */
+
+
+
+
