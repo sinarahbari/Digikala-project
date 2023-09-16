@@ -169,7 +169,7 @@ header > div.headerBottom > nav > ul > li:hover div.SUBMENU {
 }
 
 header > div.headerBottom > nav > ul > li > div.SUBMENU {
-  width: 98.8vw;
+  width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.692);
   position: absolute;
@@ -179,7 +179,7 @@ header > div.headerBottom > nav > ul > li > div.SUBMENU {
 }
 
 header > div.headerBottom > nav > ul > li > div.SUBMENU > div.submenu {
-  width: 210px;
+  width: 220px;
   height: 380px;
   background-color: whitesmoke;
   position: relative;
@@ -239,14 +239,35 @@ header
 }
 
 header > div.headerBottom > nav > ul > li > div.SUBMENU > div.mainmenu {
+  display: none;
+  width: 990px;
+  height: 380px;
+  margin-top: -380px;
+  margin-right: -454px;
+  background-color: whitesmoke;
+  position: absolute;
+}
+
+header > div.headerBottom > nav > ul > li > div.SUBMENU:hover > div.mainmenu {
+  display: inline-block;
+}
+
+/* header > div.headerBottom > nav > ul > li > div.SUBMENU > div.mainmenu1 {
   display: inline-block;
   width: 990px;
   height: 380px;
   margin-top: -380px;
-  margin-right: -523px;
-  background-color: whitesmoke;
+  margin-right: -454px;
+  background-color: rgba(211, 2, 2, 0.192);
   position: absolute;
 }
+
+
+
+header > div.headerBottom > nav > ul > li > div.SUBMENU:hover > div.mainmenu1 {
+  display:none;
+ 
+} */
 
 header
   > div.headerBottom
@@ -297,7 +318,6 @@ header
   justify-content: space-around;
   overflow: scroll;
   cursor: pointer;
- 
 }
 
 header
@@ -313,11 +333,10 @@ header
   margin-top: 10px;
   font-family: IR-YEKAN;
   color: rgba(0, 0, 0, 0.911);
- cursor: pointer;
- /* background-color: blue; */
- text-align: right;
+  cursor: pointer;
+  /* background-color: blue; */
+  text-align: right;
 }
-
 
 header
   > div.headerBottom
@@ -326,92 +345,58 @@ header
   > li
   > div.SUBMENU
   > div.mainmenu
-  > section.product-text>h2
-  > ul> li{
-    width: inherit;
-    height: inherit;
-    /* background-color: violet; */
-    list-style: none;
-    margin-top: 15px;
-    color: rgb(105, 105, 105);
-    font-family: IR-YEKAN;
-    text-align: justify;
-    cursor: pointer;
-  }
+  > section.product-text
+  > h2
+  > ul
+  > li {
+  width: inherit;
+  height: inherit;
+  /* background-color: violet; */
+  list-style: none;
+  margin-top: 15px;
+  color: rgb(105, 105, 105);
+  font-family: IR-YEKAN;
+  text-align: justify;
+  cursor: pointer;
+}
 
-  header
+header
   > div.headerBottom
   > nav
   > ul
   > li
   > div.SUBMENU
   > div.mainmenu
-  > section.product-text>h2
-  > ul> div.extera-text{
-    margin-top: 30px;
-  }
+  > section.product-text
+  > h2
+  > ul
+  > div.extera-text {
+  margin-top: 30px;
+}
 
-  header
+header
   > div.headerBottom
   > nav
   > ul
   > li
   > div.SUBMENU
   > div.mainmenu
-  > section.product-text>h2
-  > ul> div.extera-text>h2>ul>li{
-    width: inherit;
-    height: inherit;
-    /* background-color: violet; */
-    list-style: none;
-    color: rgb(105, 105, 105);
-    font-family: IR-YEKAN;
-    text-align: justify;
-    margin-top: 20px;
-  }
-
-
- 
-
-  
-  
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  > section.product-text
+  > h2
+  > ul
+  > div.extera-text
+  > h2
+  > ul
+  > li {
+  width: inherit;
+  height: inherit;
+  /* background-color: violet; */
+  list-style: none;
+  color: rgb(105, 105, 105);
+  font-family: IR-YEKAN;
+  text-align: justify;
+  margin-top: 20px;
+}
 
 header > div.headerBottom > div.city {
   width: 10%;
@@ -439,4 +424,5 @@ div.city div > section.area-city {
   font-family: IR-YEKAN;
   font-size: 12px;
 }
+
 /* header bottom end */
